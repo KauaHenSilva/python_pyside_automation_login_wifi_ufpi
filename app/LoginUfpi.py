@@ -20,7 +20,7 @@ class MyEdge(Edge):
             
     def _myEdgeOptions(self) -> EdgeOptions:
         options = EdgeOptions()
-        # options.add_argument('headless')
+        options.add_argument('headless')
         return options
 
     def _myEdgeService(self) -> EdgeService:
