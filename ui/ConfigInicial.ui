@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConfigInicial</class>
+ <widget class="QWidget" name="ConfigInicial">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>386</width>
+    <height>166</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Config Inicial</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Olá, Para utilizar esse aplicativo você tem que realizar esses requisitos:&lt;br/&gt;(Essa prossedimento só é feito uma vez)&lt;/p&gt;&lt;p&gt;1. Conectar com alguma fonte de internet, 4G ou semelhante.&lt;/p&gt;&lt;p&gt;2. Ter o navegador Edge instalado.&lt;/p&gt;&lt;p&gt;3. Clicar no botão Configurar. :)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ButtonConfig">
+       <property name="text">
+        <string>Configurar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>ButtonConfig</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
