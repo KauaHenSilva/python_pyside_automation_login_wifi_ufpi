@@ -77,16 +77,16 @@ class AutomationWeb(MyEdge):
             raise ConnectionError(f"- O Wi-Fi da UFPI não está funcionando. \n- Você foi desconectado da rede da UFPI.")
         
             
-        try:
-            userLoginInput: WebElement
-            userLoginInput = WebDriverWait(self, 1).until(
-                expected_conditions.presence_of_element_located(
-                    (By.XPATH,
-                    '/html/head/meta[1]')
-                )
-            )
-        except:
-            raise ConnectionRefusedError("-Usuario ou senha Invalido \n - O Wi-Fi da UFPI não está funcionando.")
+        # try:
+        #     userLoginInput: WebElement
+        #     userLoginInput = WebDriverWait(self, 1).until(
+        #         expected_conditions.presence_of_element_located(
+        #             (By.XPATH,
+        #             '/html/head/meta[1]')
+        #         )
+        #     )
+        # except:
+        #     raise ConnectionRefusedError("-Usuario ou senha Invalido \n - O Wi-Fi da UFPI não está funcionando.")
         
 
 def execAutomationWeb(login: str, password: str):

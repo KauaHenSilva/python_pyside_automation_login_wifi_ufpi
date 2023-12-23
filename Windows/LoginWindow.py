@@ -100,7 +100,7 @@ class MyWindowLogin(Ui_WindowLogin, QMainWindow):
             self.activetButton()
         
     def sucessMensage(self):
-        self.mensagem = MySetupDialog(f'Sucesso: Você está conectado parabéns!!')
+        self.mensagem = MySetupDialog(f'Sucesso: A solicitação de Login Foi enviada!!')
         self.mensagem.exec()
         self.close()
         
