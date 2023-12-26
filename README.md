@@ -26,7 +26,7 @@ python --version:
 2. Navegue até o diretório do projeto:
    
   ```
-  cd seu_repositorio
+  cd PythonPyside_AutomationConnectionUFP
   ```
 
 3. Crie um ambiente virtual.
@@ -35,7 +35,7 @@ python --version:
   python -m venv venv
   ```
 
-4. Inicie o ambiente virtual.
+4. Inicie o ambiente virtual. (WINDOWS!!!)
 
   ```
   .\venv\Scripts\Activate.ps1
@@ -50,7 +50,15 @@ python --version:
 Usage
 -----
 
-Agora o projeto está configurado. Você pode executá-lo com o seguinte comando:
+Agora o projeto está configurado. Você pode executá-lo com os seguintes comando:
+
+  ```
+  cd PythonPyside_AutomationConnectionUFP
+  ```
+
+  ```
+  .\venv\Scripts\Activate.ps1
+  ```
 
   ```
   python main.py
