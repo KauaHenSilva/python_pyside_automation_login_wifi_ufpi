@@ -20,13 +20,13 @@ python --version:
 1. Clone o repositório para a sua máquina local:
    
   ```
-  git clone https://github.com/KauaHenSilva/PythonPyside_AutomationConnectionUFP
+  git clone https://github.com/KauaHenSilva/PythonPyside_AutomationConnectionUFPI
   ```
 
 2. Navegue até o diretório do projeto:
    
   ```
-  cd PythonPyside_AutomationConnectionUFP
+  cd PythonPyside_AutomationConnectionUFPI
   ```
 
 3. Crie um ambiente virtual.
@@ -53,7 +53,7 @@ Usage
 Agora o projeto está configurado. Você pode executá-lo com os seguintes comando:
 
   ```
-  cd PythonPyside_AutomationConnectionUFP
+  cd PythonPyside_AutomationConnectionUFPI
   ```
 
   ```
